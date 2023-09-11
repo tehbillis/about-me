@@ -1,21 +1,20 @@
-# LAB - Number
+# LAB - 02
 
-## Project Name
+## About Me
 
-I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
+An app that is all about me! Challenge yourself with a quick quiz about me, see how much you know! Then kick back and relax with a nice brief history of me.
 
-### Author: Student/Group Name
+### Author: Will Green
 
 ### Links and Resources
 
-* [submission PR](http://xyz.com)
-* Any Links you used as reference
+* [submission PR](https://tehbillis.github.io/about-me)
 
 ### Lighthouse Accessibility Report Score
 
-* Provide a screenshot of your score after running a Lighthouse Accessibility report.
+![lighthouse score](img/Screenshot%202023-09-11%20at%203.21.39%20PM.png)
 
 ### Reflections and Comments
 
-* Consider including the answers to your daily journal and submission questions here
-* This is also a good place to reflect on the tools and resources used and learned
+* I think the only reason my accessiblity score is so high is cause I have such an extremely simple style.
+* I spent a decent amount of time setting up a boilerplate repo so that my next labs don't take very long. and it worked well for this lab.
