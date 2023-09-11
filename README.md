@@ -8,7 +8,7 @@ An app that is all about me! Challenge yourself with a quick quiz about me, see 
 
 ### Links and Resources
 
-* [submission PR](https://tehbillis.github.io/about-me)
+* [Live Demo](https://tehbillis.github.io/about-me)
 
 ### Lighthouse Accessibility Report Score
 
