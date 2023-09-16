@@ -9,6 +9,7 @@ Some notable features of this App:
 * **The Quiz** - Quiz yourself on just how much you know about me! don't worry, it will be the first thing you're presented with when opening the site.
 * **About Me** - Learn more about myself after you've completed the quiz!
 * **My Top 10** - Didn't get enough about me? Well no need to worry, here are my top 10 foods I like to cook.
+* **Interactive Questions** - Didn't get the correct answer on the first try on the last two questions? Fear not, You now have multiple chances to guess correctly!
 
 ### Author: Will Green
 
