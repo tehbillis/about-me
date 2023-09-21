@@ -22,8 +22,6 @@ window.onload = function() {
     }
   }
 
-  q1();
-
   function q2() {
     let questionTwoGuess = prompt('Was I born in Washington state?');
 
@@ -39,8 +37,6 @@ window.onload = function() {
       alert('Oh sorry, You need to answer with a yes, y, no, or n. You get no point on this question.');
     }
   }
-
-  q2();
 
   function q3() {
     let questionThreeGuess = prompt('Am I a bicycle enthusiast?');
@@ -58,8 +54,6 @@ window.onload = function() {
     }
   }
 
-  q3();
-
   function q4() {
     let questionFourGuess = prompt('Am I a dog lover?');
 
@@ -76,8 +70,6 @@ window.onload = function() {
     }
   }
 
-  q4();
-
   function q5() {
     let questionFiveGuess = prompt('Do I drive trucks for a living?');
 
@@ -93,8 +85,6 @@ window.onload = function() {
       alert('Oh sorry, You need to answer with a yes, y, no, or n. You get no point on this question.');
     }
   }
-
-  q5();
 
   function q6() {
     //Guess A Number
@@ -117,8 +107,6 @@ window.onload = function() {
       }
     }
   }
-
-  q6();
 
   function q7() {
     //Guess A Brother
@@ -159,6 +147,12 @@ window.onload = function() {
     }
   }
 
+  q1();
+  q2();
+  q3();
+  q4();
+  q5();
+  q6();
   q7();
 
   alert('Congrats on completing the quiz ' + playerName + ', You\'ve been a great sport, Thank you for playing! Your final score is: ' + correctGuesses);
