@@ -96,25 +96,29 @@ window.onload = function() {
 
   q5();
 
-  //Guess A Number
+  function q6() {
+    //Guess A Number
 
-  const aRandNum = Math.floor(Math.random() * 10) + 1; //Create a random number between 1 and 10. ChatGPT helped me here.
+    const aRandNum = Math.floor(Math.random() * 10) + 1; //Create a random number between 1 and 10. ChatGPT helped me here.
 
-  for (let i = 4; i > 0; i--) {
-    let questionSixGuess = prompt('Let\'s try something new. You have ' + i + ' chances to guess the number that i\'m thinking of between 1 and 10');
+    for (let i = 4; i > 0; i--) {
+      let questionSixGuess = prompt('Let\'s try something new. You have ' + i + ' chances to guess the number that i\'m thinking of between 1 and 10');
 
-    if (questionSixGuess == aRandNum) {
-      alert('Great job! You guessed it!');
-      correctGuesses+=1;
-      break;
-    } else if(questionSixGuess > aRandNum) {
-      alert('Sorry, You guessed too high.');
-    } else if (questionSixGuess < aRandNum) {
-      alert('Sorry, You guessed too low.');
-    } else {
-      alert('Sorry, you didn\'t enter a number.');
+      if (questionSixGuess == aRandNum) {
+        alert('Great job! You guessed it!');
+        correctGuesses+=1;
+        break;
+      } else if(questionSixGuess > aRandNum) {
+        alert('Sorry, You guessed too high.');
+      } else if (questionSixGuess < aRandNum) {
+        alert('Sorry, You guessed too low.');
+      } else {
+        alert('Sorry, you didn\'t enter a number.');
+      }
     }
   }
+
+  q6();
 
   //Guess A Brother
 
