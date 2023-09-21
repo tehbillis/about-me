@@ -120,42 +120,46 @@ window.onload = function() {
 
   q6();
 
-  //Guess A Brother
+  function q7() {
+    //Guess A Brother
 
-  const questionSevenAnswers = ['mel', 'chris', 'john', 'hyrum', 'joe'];
-  let questionSevenNames = '';
+    const questionSevenAnswers = ['mel', 'chris', 'john', 'hyrum', 'joe', 'sam', 'hunter'];
+    let questionSevenNames = '';
 
-  for ( let i = questionSevenAnswers.length-1; i >=0; i--) {
-    if (i >0) {
-      questionSevenNames += (questionSevenAnswers[i] + ', ');
-    } else {
-      questionSevenNames += questionSevenAnswers[i];
-    }
-  }
-
-  for (let i = 6; i > 0; i--) {
-    let questionSevenGuess = prompt('OK, So I have a bunch of brothers. You have ' + i + ' chances to guess one of their names.').toLowerCase();
-    let questionSevenFound = false;
-
-    for ( let x = questionSevenAnswers.length-1; x >=0; x--) {
-      if (questionSevenAnswers[x] === questionSevenGuess) {
-        questionSevenFound = true;
-        break;
-      }
-    }
-
-    if (questionSevenFound) {
-      alert('Great job! you guessed one! Just for future reference my brothers are ' + questionSevenNames + '.');
-      correctGuesses+=1;
-      break;
-    } else {
-      if (i !== 1) {
-        alert('Sorry, That guy isn\'t my brother.');
+    for ( let i = questionSevenAnswers.length-1; i >= 0; i--) {
+      if (i > 0) {
+        questionSevenNames += (questionSevenAnswers[i] + ', ');
       } else {
-        alert('Sorry, That guy isn\'t my brother. And you\'re out of chances. Just for future reference my brothers are ' + questionSevenNames + '.');
+        questionSevenNames += questionSevenAnswers[i];
+      }
+    }
+
+    for (let i = 6; i > 0; i--) {
+      let questionSevenGuess = prompt('OK, So I have a bunch of brothers. You have ' + i + ' chances to guess one of their names.').toLowerCase();
+      let questionSevenFound = false;
+
+      for ( let x = questionSevenAnswers.length-1; x >= 0; x--) {
+        if (questionSevenAnswers[x] === questionSevenGuess) {
+          questionSevenFound = true;
+          break;
+        }
+      }
+
+      if (questionSevenFound) {
+        alert('Great job! you guessed one! Just for future reference my brothers are ' + questionSevenNames + '.');
+        correctGuesses+=1;
+        break;
+      } else {
+        if (i !== 1) {
+          alert('Sorry, That guy isn\'t my brother.');
+        } else {
+          alert('Sorry, That guy isn\'t my brother. And you\'re out of chances. Just for future reference my brothers are ' + questionSevenNames + '.');
+        }
       }
     }
   }
+
+  q7();
 
   alert('Congrats on completing the quiz ' + playerName + ', You\'ve been a great sport, Thank you for playing! Your final score is: ' + correctGuesses);
 };
