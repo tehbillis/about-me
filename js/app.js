@@ -42,33 +42,41 @@ window.onload = function() {
 
   q2();
 
-  let questionThreeGuess = prompt('Am I a bicycle enthusiast?');
+  function q3() {
+    let questionThreeGuess = prompt('Am I a bicycle enthusiast?');
 
-  if (questionThreeGuess.toLowerCase() === 'y' || questionThreeGuess.toLowerCase() === 'yes') {
-    //console.log('You are correct!');
-    alert('You are correct!');
-    correctGuesses+=1;
-  } else if (questionThreeGuess.toLowerCase() === 'n' || questionThreeGuess.toLowerCase() === 'no') {
-    //console.log('I\'m sorry, that is not correct.');
-    alert('I\'m sorry, that is not correct.');
-  } else {
-    //console.log('Oh sorry, You need to answer with a yes, y, no, or n. You get no point on this question.');
-    alert('Oh sorry, You need to answer with a yes, y, no, or n. You get no point on this question.');
+    if (questionThreeGuess.toLowerCase() === 'y' || questionThreeGuess.toLowerCase() === 'yes') {
+      //console.log('You are correct!');
+      alert('You are correct!');
+      correctGuesses+=1;
+    } else if (questionThreeGuess.toLowerCase() === 'n' || questionThreeGuess.toLowerCase() === 'no') {
+      //console.log('I\'m sorry, that is not correct.');
+      alert('I\'m sorry, that is not correct.');
+    } else {
+      //console.log('Oh sorry, You need to answer with a yes, y, no, or n. You get no point on this question.');
+      alert('Oh sorry, You need to answer with a yes, y, no, or n. You get no point on this question.');
+    }
   }
 
-  let questionFourGuess = prompt('Am I a dog lover?');
+  q3();
 
-  if (questionFourGuess.toLowerCase() === 'y' || questionFourGuess.toLowerCase() === 'yes') {
-    //console.log('You are correct!');
-    alert('You are correct!');
-    correctGuesses+=1;
-  } else if (questionFourGuess.toLowerCase() === 'n' || questionFourGuess.toLowerCase() === 'no') {
-    //console.log('I\'m sorry, that is not correct.');
-    alert('I\'m sorry, that is not correct.');
-  } else {
-    //console.log('Oh sorry, You need to answer with a yes, y, no, or n. You get no point on this question.');
-    alert('Oh sorry, You need to answer with a yes, y, no, or n. You get no point on this question.');
+  function q4() {
+    let questionFourGuess = prompt('Am I a dog lover?');
+
+    if (questionFourGuess.toLowerCase() === 'y' || questionFourGuess.toLowerCase() === 'yes') {
+      //console.log('You are correct!');
+      alert('You are correct!');
+      correctGuesses+=1;
+    } else if (questionFourGuess.toLowerCase() === 'n' || questionFourGuess.toLowerCase() === 'no') {
+      //console.log('I\'m sorry, that is not correct.');
+      alert('I\'m sorry, that is not correct.');
+    } else {
+      //console.log('Oh sorry, You need to answer with a yes, y, no, or n. You get no point on this question.');
+      alert('Oh sorry, You need to answer with a yes, y, no, or n. You get no point on this question.');
+    }
   }
+
+  q4();
 
   let questionFiveGuess = prompt('Do I drive trucks for a living?');
 
