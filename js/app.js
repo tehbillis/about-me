@@ -78,19 +78,23 @@ window.onload = function() {
 
   q4();
 
-  let questionFiveGuess = prompt('Do I drive trucks for a living?');
+  function q5() {
+    let questionFiveGuess = prompt('Do I drive trucks for a living?');
 
-  if (questionFiveGuess.toLowerCase() === 'y' || questionFiveGuess.toLowerCase() === 'yes') {
-    //console.log('I\'m sorry, that is not correct.');
-    alert('I\'m sorry, that is not correct');
-  } else if (questionFiveGuess.toLowerCase() === 'n' || questionFiveGuess.toLowerCase() === 'no') {
-    //console.log('You are correct!');
-    alert('You are correct!');
-    correctGuesses+=1;
-  } else {
-    //console.log('Oh sorry, You need to answer with a yes, y, no, or n. You get no point on this question.');
-    alert('Oh sorry, You need to answer with a yes, y, no, or n. You get no point on this question.');
+    if (questionFiveGuess.toLowerCase() === 'y' || questionFiveGuess.toLowerCase() === 'yes') {
+      //console.log('I\'m sorry, that is not correct.');
+      alert('I\'m sorry, that is not correct');
+    } else if (questionFiveGuess.toLowerCase() === 'n' || questionFiveGuess.toLowerCase() === 'no') {
+      //console.log('You are correct!');
+      alert('You are correct!');
+      correctGuesses+=1;
+    } else {
+      //console.log('Oh sorry, You need to answer with a yes, y, no, or n. You get no point on this question.');
+      alert('Oh sorry, You need to answer with a yes, y, no, or n. You get no point on this question.');
+    }
   }
+
+  q5();
 
   //Guess A Number
 
