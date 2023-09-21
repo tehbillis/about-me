@@ -31,3 +31,9 @@ Second Attempt
 
 * I think the only reason my accessiblity score is so high is cause I have such an extremely simple style.
 * I spent a decent amount of time setting up a boilerplate repo so that my next labs don't take very long. and it worked well for this lab.
+
+## Pair Programming
+
+*Driver* - Trevor Ingram
+
+*Navigator* - Will Green
