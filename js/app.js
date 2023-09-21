@@ -6,19 +6,23 @@ window.onload = function() {
   let playerName = prompt('What is your name?');
   alert('Hi '+ playerName + ', Let\'s play a guessing game! Please answer using only Yes or No.');
 
-  let questionOneGuess = prompt('Do I have red hair?');
+  function q1() {  
+    let questionOneGuess = prompt('Do I have red hair?');
 
-  if (questionOneGuess.toLowerCase() === 'y' || questionOneGuess.toLowerCase() === 'yes') {
-    //console.log('You are correct!');
-    alert('You are correct!');
-    correctGuesses+=1;
-  } else if (questionOneGuess.toLowerCase() === 'n' || questionOneGuess.toLowerCase() === 'no') {
-    //console.log('I\'m sorry, that is not correct.');
-    alert('I\'m sorry, that is not correct.');
-  } else {
-    //console.log('Oh sorry, You need to answer with a yes, y, no, or n. You get no point on this question.');
-    alert('Oh sorry, You need to answer with a yes, y, no, or n. You get no point on this question.');
+    if (questionOneGuess.toLowerCase() === 'y' || questionOneGuess.toLowerCase() === 'yes') {
+      //console.log('You are correct!');
+      alert('You are correct!');
+      correctGuesses+=1;
+    } else if (questionOneGuess.toLowerCase() === 'n' || questionOneGuess.toLowerCase() === 'no') {
+      //console.log('I\'m sorry, that is not correct.');
+      alert('I\'m sorry, that is not correct.');
+    } else {
+      //console.log('Oh sorry, You need to answer with a yes, y, no, or n. You get no point on this question.');
+      alert('Oh sorry, You need to answer with a yes, y, no, or n. You get no point on this question.');
+    }
   }
+
+  q1();
 
   let questionTwoGuess = prompt('Was I born in Washington state?');
 
