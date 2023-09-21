@@ -24,19 +24,23 @@ window.onload = function() {
 
   q1();
 
-  let questionTwoGuess = prompt('Was I born in Washington state?');
+  function q2() {
+    let questionTwoGuess = prompt('Was I born in Washington state?');
 
-  if (questionTwoGuess.toLowerCase() === 'y' || questionTwoGuess.toLowerCase() === 'yes') {
-    //console.log('I\'m sorry, that is not correct.');
-    alert('I\'m sorry, that is not correct');
-  } else if (questionTwoGuess.toLowerCase() === 'n' || questionTwoGuess.toLowerCase() === 'no') {
-    //console.log('You are correct!');
-    alert('You are correct!');
-    correctGuesses+=1;
-  } else {
-    //console.log('Oh sorry, You need to answer with a yes, y, no, or n. You get no point on this question.');
-    alert('Oh sorry, You need to answer with a yes, y, no, or n. You get no point on this question.');
+    if (questionTwoGuess.toLowerCase() === 'y' || questionTwoGuess.toLowerCase() === 'yes') {
+      //console.log('I\'m sorry, that is not correct.');
+      alert('I\'m sorry, that is not correct');
+    } else if (questionTwoGuess.toLowerCase() === 'n' || questionTwoGuess.toLowerCase() === 'no') {
+      //console.log('You are correct!');
+      alert('You are correct!');
+      correctGuesses+=1;
+    } else {
+      //console.log('Oh sorry, You need to answer with a yes, y, no, or n. You get no point on this question.');
+      alert('Oh sorry, You need to answer with a yes, y, no, or n. You get no point on this question.');
+    }
   }
+
+  q2();
 
   let questionThreeGuess = prompt('Am I a bicycle enthusiast?');
 
