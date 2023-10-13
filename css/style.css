@@ -1,3 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fffffc;
+}
+
+header {
+    background-color: #244132;
+    padding: 20px 0px 20px 50px;
+}
+
+header h1 {
+    color: #cbd0bb;
+    margin: 0 auto;
+}
+
+main {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
 h1 {
     font-size: 4vw;
     padding: 5px;
@@ -6,6 +27,8 @@ h1 {
 h2 {
     font-size: 2vw;
     padding: 5px;
+    color: #5d3d33;
+    text-decoration: underline;
 }
 
 p {

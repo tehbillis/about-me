@@ -27,6 +27,10 @@ Second Attempt
 
 ![lighthouse score](img/Screenshot%202023-09-15%20at%208.47.14%20PM.png)
 
+Final Attempt
+
+![lighthouse score](img/Screenshot%202023-10-12%20at%209.26.14%20PM.png)
+
 ### Reflections and Comments
 
 * I think the only reason my accessiblity score is so high is cause I have such an extremely simple style.
